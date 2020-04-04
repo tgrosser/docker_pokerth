@@ -11,5 +11,6 @@ RUN cp -r /usr/share/doc/pokerth-server ./pokerth/
 RUN cp -r /usr/share/doc/pokerth-data ./pokerth/
 RUN cp -r /usr/games/pokerth_server ./pokerth/
 COPY resources/config.xml ./pokerth/
+COPY resources/.pokerth/ ./.pokerth/
 
-CMD ./pokerth/pokerth_server && tail -F ~/.pokerth/log-files/server_messages.log
+CMD ./pokerth/pokerth_server && tail -F ./.pokerth/log-files/server_messages.log

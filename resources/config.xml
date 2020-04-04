@@ -86,7 +86,7 @@
         <ServerBruteForceProtection value="1" />
         <InternetServerConfigMode value="0" />
         <InternetServerListAddress value="pokerth.net/serverlist.xml.z" />
-        <InternetServerAddress value="192.168.2.23" />
+        <InternetServerAddress value="*** your ip or servername here ***" />
         <InternetServerPort value="7234" />
         <InternetServerUseIpv6 value="0" />
         <InternetServerUseSctp value="0" />
